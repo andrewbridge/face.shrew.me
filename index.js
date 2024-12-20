@@ -6,7 +6,7 @@ let score = 0;
 
 for (let i = 0; i < FACE_COUNT; i++) {
     const face = new Image();
-    face.src = `/assets/face-${i}.png`;
+    face.src = `/assets/faces/face-${i}.png`;
 }
 
 const GRUNT_COUNT = 26;
