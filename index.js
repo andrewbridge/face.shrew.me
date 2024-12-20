@@ -4,6 +4,11 @@ let lastFace = 0;
 let highScore = 0;
 let score = 0;
 
+for (let i = 0; i < FACE_COUNT; i++) {
+    const face = new Image();
+    face.src = `/assets/face-${i}.png`;
+}
+
 const GRUNT_COUNT = 26;
 const grunts = new Howl({
     src: ['/assets/grunts.mp3'],
